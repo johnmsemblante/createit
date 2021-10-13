@@ -1,0 +1,29 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
+// Just copy a variable from node_modules/bootstrap/scss/_variables.scss, paste it here and edit the value.
+
+// Font Family
+$font-family-regular : 'open_sansregular';
+$font-family-semi-bold : 'open_sanssemibold';
+
+// Grid breakpoints
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+// https://getbootstrap.com/docs/5.0/layout/breakpoints/
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1400px
+);
+
+//Color
+$white :#ffffff;
+$black :#000000;
+$orange: #ea623d;
+$violet: #453951;
+$dark-gray: #333333;
+$mid-gray: #666666;
+$light-gray: #999999;

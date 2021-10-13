@@ -1,0 +1,39 @@
+.page-title{
+    &__container{
+        background: $violet;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 32px 0 31px;
+    }
+
+    &__h1{
+        font-size: 32px;
+        color: $white;
+        margin-bottom: 0;
+    }
+
+    &__h2{
+        font-size: 32px;
+        color: $dark-gray;
+        margin: 0;
+        padding: 28px 0;
+        text-align: center;
+    }
+
+    &__h3{
+        font-family: $font-family-semi-bold;
+        font-size: 18px;
+        color: $dark-gray;
+        margin-bottom: 25px;
+    }
+
+    &__h4{
+        font-family: $font-family-semi-bold;
+        font-size: 13px;
+        color: $light-gray;
+        margin: 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
